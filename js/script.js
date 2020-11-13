@@ -100,7 +100,7 @@ const quotes = [
 // This is a function declaration of "getRandomQuotes". As it says, this function generates a random quote from the array of objects quotes.
 
 function getRandomQuote() {
-    const randomElement = Math.floor(10 * Math.random() + 1);
+    const randomElement = Math.floor(quotes.length * Math.random());
     return quotes[randomElement];
 }
 
